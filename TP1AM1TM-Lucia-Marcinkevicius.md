@@ -1,7 +1,7 @@
 ### Título de la Obra: Koi 
 ### Año: 2022 
 ### Autora: Lucía Marcinkevicius 
-### [Enlace a la obra] (https://editor.p5js.org/lucia.marcinkevicius/sketches/PxCD5tmK8) 
+### [Enlace a la obra](https://editor.p5js.org/lucia.marcinkevicius/sketches/PxCD5tmK8) 
 ### Breve descripción:  
 *“Koi”* es el resultado de llevar algo simple como una elipse estática a un cuadro dinámico utilizando solamente copias, rotaciones y el azar que trae la generación éstas desde un nuevo punto de inicio al hacer un click.  
 
