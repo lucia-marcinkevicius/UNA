@@ -20,4 +20,4 @@ También habla sobre los múltiples escenarios que pueden existir gracias a las 
 
 ### Bibliografía:
 * José Luis Brea *“Redefinición de las prácticas artísticas S21”* (2008)
-* Paul Válery *"La conquista de la obicuidad"* (1928)
+* Paul Válery *"La conquista de la ubicuidad"* (1928)
