@@ -1,0 +1,149 @@
+@font-face {
+    font-family: LRT_Oksana;
+    src: url('LRT_Oksana.ttf')format('truetype');
+    
+} 
+@font-face{
+    font-family: LRT_Oksana_Italic;
+    src: url('LRT_Oksana_Italic.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: LRT_Oksana_Bold;
+    src: url('LRT_Oksana_Bold.ttf')format('truetype');
+}
+body {
+    background-color: hsl(4, 17%, 83%);
+    
+}
+h1{
+    font-family: LRT_Oksana_Bold;
+    color: #312d25;
+    padding-top: 10px;
+}
+h2,h3,h4{
+    font-family: LRT_Oksana_Italic;
+    color: #312d25;
+}
+
+.navbar{
+    --bs-navbar-padding-x: 1
+}
+
+.navbar-nav {
+/*     font-family: myFirstFont;
+ */    background-color: #867b74;
+    float:none;
+    margin:0 auto;
+    display: flex;
+    text-align: center;
+}
+#navbarNav{
+    background-color: #867b74;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+a:hover {
+    background-color: darkgray;
+}
+
+.carousel-inner{
+    max-height: 45rem;
+}
+
+.container-video{
+    padding-bottom: 10px;
+} 
+
+/* .bg_galeria{
+    background-color: rgb(17, 17, 17);
+} */
+
+/* h1, h2, h3, h4{
+    font-family: myFirstFont;
+    color: #312d25;
+} */
+
+section{
+    color: #312d25;
+}
+
+ul {
+    list-style: none;
+}
+.galeria_img{
+    display: block;
+    max-width: 100%;
+}
+.galeria{
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeria_item{
+    width: 80%;
+    cursor: pointer;
+    margin: 5px;
+}
+/*media query para que cambie a partir de:*/
+
+@media(min-width:480px){
+    .galeria_item{
+        width: 48%;
+        margin: 5px;
+    }
+}
+@media(min-width:768px){
+    .galeria_item{
+        width: 33%;
+        margin: 5px;
+    }
+}
+@media(min-width:1024px){
+    .galeria_item{
+        width: 20%;
+        margin: 5px;
+    }
+}
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100vh; 
+    background:rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0; 
+}
+.modal_img{
+    width: 70%;
+    max-width:550px;
+
+}
+.modal_boton{
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: monospace;
+    line-height: center;
+    text-align: center;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+footer{
+    color: #312d25;
+    padding: 1em;
+}
